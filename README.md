@@ -10,7 +10,7 @@ It simulates the real-world tasks of a **Junior Data Engineer / Support Engineer
 ### Core Features
 * **File Verification:** Automatically checks if the daily data file has arrived on time.
 * **Schema Standardization:** Fixes basic formatting issues by automatically converting column headers to lowercase to prevent system crashes.
-* **Error Logging & Isolation:** Scans data for missing critical values (like `invoice_id`) and safely extracts bad records into a separate file (`quarantine_triage_log.csv`) for review.
+* **Error Logging & Isolation:** Scans data for missing critical values (like `invoice_id`) and safely extracts bad records into a separate file (`error_log.csv`) for review.
 
 ### Built With
 * Python 3.x
